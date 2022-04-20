@@ -27,6 +27,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  justify-content: center;
 }
 
 .menu li a,
@@ -209,6 +210,7 @@ footer img {
 }
 
 @media screen and (max-width:599px) {
+
   .menu li {
     width: 33.333%;
     height: 76px;
@@ -232,7 +234,8 @@ footer img {
     margin-left: 20px;
   }
 
-  #purchase {
+  #purchase,
+  ul li:nth-child(3) {
     display: none;
   }
 
@@ -263,7 +266,8 @@ footer img {
     margin-left: 50px;
   }
 
-  #purchase {
+  #purchase,
+  ul li:nth-child(3) {
     display: none;
   }
 
