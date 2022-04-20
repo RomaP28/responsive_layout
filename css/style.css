@@ -237,6 +237,7 @@ footer img {
   }
 
   .card {
+    text-align: center;
     display: block;
     padding: 10px 0;
   }
@@ -250,7 +251,6 @@ footer img {
 @media screen and (min-width:600px) and (max-width:768px) {
 
   .menu li {
-    /* border: solid 1px red; */
     width: 33.333%;
     height: 76px;
   }
