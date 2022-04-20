@@ -203,9 +203,9 @@ footer img {
 }
 
 @media screen and (max-width:768px) {
-  body {
+  /* body {
     width: 753px;
-  }
+  } */
 
   .menu li {
     width: 33.333%;
