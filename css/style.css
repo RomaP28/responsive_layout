@@ -202,12 +202,40 @@ footer img {
   margin-top: 7px;
 }
 
-@media screen and (max-width:768px) {
-  /* body {
-    width: 753px;
-  } */
+@media screen and (max-width:599px) {
+  .menu li {
+    width: 33.333%;
+    height: 76px;
+  }
+
+  .menu li a {
+    width: 80%;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  .services div {
+    width: 100%;
+  }
+
+  #vacancy ul li {
+    margin-left: 20px;
+  }
+
+  #purchase {
+    display: none;
+  }
+
+  .contacts-block {
+    display: block;
+  }
+}
+
+
+@media screen and (min-width:600px) and (max-width:768px) {
 
   .menu li {
+    /* border: solid 1px red; */
     width: 33.333%;
     height: 76px;
   }
@@ -224,8 +252,9 @@ footer img {
     display: none;
   }
 
+
   .contacts-block h2 {
-    width: 35%;
+    width: 30%;
   }
 }
 
