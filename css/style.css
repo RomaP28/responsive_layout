@@ -214,6 +214,10 @@ footer img {
     font-size: 1.3em;
   }
 
+  section {
+    padding-left: 20px;
+  }
+
   .services div {
     width: 100%;
   }
@@ -224,6 +228,11 @@ footer img {
 
   #purchase {
     display: none;
+  }
+
+  .card {
+    display: block;
+    padding: 10px 0;
   }
 
   .contacts-block {
@@ -251,7 +260,6 @@ footer img {
   #purchase {
     display: none;
   }
-
 
   .contacts-block h2 {
     width: 30%;
