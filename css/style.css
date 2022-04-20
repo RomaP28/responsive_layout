@@ -353,6 +353,10 @@ footer img {
     padding-bottom: 170px;
   }
 
+  main p {
+    font-size: 2.2em;
+  }
+
   .contacts-block h2 {
     width: 40%;
   }
@@ -391,11 +395,11 @@ footer img {
   }
 
   main p {
-    font-size: 3.2em;
+    font-size: 2.2em;
   }
 
   main button {
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 20px 100px;
   }
 
